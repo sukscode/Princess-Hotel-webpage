@@ -1,0 +1,32 @@
+body {
+  color: #ad986c;
+  background-color: white;
+  font-family: "Source Serif 4", sans-serif;
+}
+/*.title-image {
+  text-align: center;
+  position: relative;
+  max-width: fit-content;
+  min-width: auto;
+  height: 50rem;
+  width: 100%;
+  margin-right: 0%;
+  padding: 0%;
+  right: inherit;
+}
+.big-heading {
+  position: relative;
+  z-index: -1;
+}*/
+#title {
+  background-image: url("screen_2x.jpg");
+  height: 100%;
+  background-size: cover;
+}
+.big-heading {
+  padding: 30%;
+  margin-right: 80%;
+}
+footer {
+  background-color: aliceblue;
+}
