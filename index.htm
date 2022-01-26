@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Source+Serif+4&family=Ubuntu&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Source+Serif+4&display=swap"
       rel="stylesheet"
     />
 
@@ -28,7 +28,6 @@
       defer
       src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"
     ></script>
-
     <!-- Bootstrap Scripts -->
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -86,36 +85,43 @@
 
         <!-- Title -->
 
-        <div class="row">
+        <div class="w3-content" style="max-width: 1100px">
           <h1 class="big-heading">
             PRINCESS<br />
             GRAND HOTEL
             <hr />
+            <p class="dd">Where your dreams become true</p>
           </h1>
-          <hr />
-          <p class="para-heading">Where your dreams become true</p>
-          <!--<img class="title-image" src="screen_2x.jpg" alt="image" />-->
         </div>
       </div>
     </section>
 
     <!--room-->
 
-    <section class="white-section" id="rooms">
+    <section class="w3-row w3-padding-64" id="rooms">
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
-            <h2>DELUXE ROOM</h2>
+            <h1>DELUXE ROOM</h1>
 
-            <h4>a sleeping beauty style</h4>
+            <h3>a sleeping beauty style</h3>
             <p>
               Ideo sumi sae ima ente rari novi. Contrariae aliquoties affirmabam
               parentibus ad deprehendi mo. Ac nunc illi ii fide. Judicio finitae
               invenio eam claudam fuerunt sed vel majoris.
             </p>
-            <hr />
+            <hr id="border-page" />
           </div>
-          <div class="col-lg-6"><img src="#" /></div>
+          <div class="col-lg-6">
+            <img
+              src="s3.webp"
+              class="w3-round w3-image w3-opacity-min"
+              alt="Table Setting"
+              width="600"
+              height="660"
+              id="shape"
+            />
+          </div>
         </div>
       </div>
     </section>
@@ -126,18 +132,25 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
-            <img src="#" />
+            <img
+              src="Capture.JPG"
+              class="w3-round w3-image w3-opacity-min"
+              alt="Table Setting"
+              width="570"
+              height="660"
+              id="shape"
+            />
           </div>
           <div class="col-lg-6">
-            <h2>CULTIVATE A TASTE</h2>
+            <h1>CULTIVATE A TASTE</h1>
 
-            <h4>for delicious cuisine</h4>
+            <h3>for delicious cuisine</h3>
             <p>
               Ideo sumi sae ima ente rari novi. Contrariae aliquoties affirmabam
               parentibus ad deprehendi mo. Ac nunc illi ii fide. Judicio finitae
               invenio eam claudam fuerunt sed vel majoris.
             </p>
-            <hr />
+            <hr id="border-page" />
           </div>
         </div>
       </div>
@@ -147,18 +160,27 @@
     <section class="white-section" id="spa">
       <div class="container">
         <div class="row">
-          <div class="col-lg-6">
-            <h2>COCOON YOURSELF</h2>
+          <div class="col-xl-6">
+            <h1>COCOON YOURSELF</h1>
 
-            <h4>with Signature treatments</h4>
+            <h3>with Signature treatments</h3>
             <p>
               Ideo sumi sae ima ente rari novi. Contrariae aliquoties affirmabam
               parentibus ad deprehendi mo. Ac nunc illi ii fide. Judicio finitae
               invenio eam claudam fuerunt sed vel majoris.
             </p>
-            <hr />
+            <hr id="border-page" />
           </div>
-          <div class="col-lg-6"><img src="#" /></div>
+          <div class="col-xl-6">
+            <img
+              src="https://media.istockphoto.com/photos/spa-treatment-set-picture-id856952836?k=20&m=856952836&s=612x612&w=0&h=nnu7BMV3CqV3uv4_IpYIh2K1Tu9hTRnn6GJMqQW6hh8="
+              class="w3-round w3-image w3-opacity-min"
+              alt="Table Setting"
+              width="600"
+              height="660"
+              id="shape"
+            />
+          </div>
         </div>
       </div>
     </section>
@@ -178,11 +200,10 @@
               <div class="row">
                 <div class="col-md-9 col-lg-7">
                   <div class="contact-wrap w-100 p-md-5 p-4">
-                    <h3 class="mb-4">
+                    <h4 class="mb-4">
                       Princess Avenue, 35 -TW345 FAIRYTALE<br />T 001 -
                       3456543234
-                    </h3>
-                    <div id="form-message-warning" class="mb-4"></div>
+                    </h4>
                     <form
                       method="POST"
                       id="contactForm"
@@ -199,7 +220,6 @@
                               class="form-control error"
                               name="name"
                               id="name"
-                              placeholder="Name"
                             />
                           </div>
                         </div>
@@ -213,7 +233,6 @@
                               class="form-control error"
                               name="email"
                               id="email"
-                              placeholder="Email"
                               aria-invalid="true"
                             />
                           </div>
@@ -226,7 +245,6 @@
                               class="form-control error"
                               name="subject"
                               id="subject"
-                              placeholder="Subject"
                             />
                           </div>
                         </div>
@@ -239,7 +257,6 @@
                               id="message"
                               cols="30"
                               rows="4"
-                              placeholder="Message"
                             ></textarea>
                           </div>
                         </div>
@@ -271,7 +288,7 @@
         <i class="social-icon fab fa-twitter"></i>
         <i class="social-icon fab fa-instagram"></i>
         <i class="social-icon fas fa-envelope"></i>
-        <p>© Copyright 2022 Princess Grand Hotel</p>
+        <p class="footpara">© Copyright 2022 Princess Grand Hotel</p>
       </div>
     </footer>
   </body>
